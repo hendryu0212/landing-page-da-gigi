@@ -1,4 +1,4 @@
-`html
+[20:07, 14/06/2025] Chat Gpt: html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -10,17 +10,19 @@
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
       color: #fff;
-      background-color: #000;
-      background-image: url('https://i.imgur.com/QgL1xBo.png');
-      background-size: contain;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
+      background: url('https://i.imgur.com/QgL1xBo.png') center center no-repeat fixed;
+      background-size: cover;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.88);
+      min-height: 100vh;
+      padding: 30px 20px;
     }
 
     header {
       text-align: center;
-      padding: 40px 20px 20px;
+      margin-bottom: 30px;
     }
 
     header img {
@@ -37,22 +39,27 @@
     h2 {
       color: #e63946;
       font-weight: normal;
-      margin-bottom: 40px;
+      margin-top: 10px;
     }
 
     .container {
       max-width: 800px;
       margin: auto;
       padding: 20px;
-      background-color: rgba(0, 0, 0, 0.85);
+      background-color: rgba(0, 0, 0, 0.6);
       border-radius: 10px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
     }
 
     .btn {
       display: inline-block;
       padding: 15px 30px;
       background-color: #e63946;
-      color: #fff;
+[20:07, 14/06/2025] Chat Gpt: color: #fff;
       font-weight: bold;
       text-decoration: none;
       border-radius: 5px;
@@ -72,13 +79,13 @@
       font-size: 1rem;
     }
 
-    .benefits {
+    .benefits, .testimonials {
       margin-top: 40px;
     }
 
-    .benefits h3 {
+    .benefits h3, .testimonials h3 {
       color: gold;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
     }
 
     .benefits ul {
@@ -88,7 +95,7 @@
 
     .benefits li {
       margin: 10px 0;
-      padding-left: 20px;
+      padding-left: 25px;
       position: relative;
     }
 
@@ -97,10 +104,6 @@
       color: red;
       position: absolute;
       left: 0;
-    }
-
-    .testimonials {
-      margin-top: 40px;
     }
 
     .testimonial {
@@ -126,10 +129,40 @@
 </head>
 <body>
 
-  <header>
-    <img src="https://i.imgur.com/YRU9zKw.png" alt="Símbolo Geração Império">
-    <h1>90 Dias Para o Seu Império Mental</h1>
-    <h2>Construa uma mente inabalável com estratégias cientificamente comprovadas</h2>
-  </header>
+  <div class="overlay">
+    <header>
+      <img src="https://i.imgur.com/YRU9zKw.png" alt="Símbolo Geração Império">
+[20:07, 14/06/2025] Chat Gpt: <h1>90 Dias Para o Seu Império Mental</h1>
+      <h2>Construa uma mente inabalável com estratégias cientificamente comprovadas</h2>
+    </header>
 
-  <div class="container">
+    <div class="container">
+      <p>Este eBook é o protocolo mental para quem quer domínio total sobre si. Se você busca força interna, foco absoluto e mentalidade de execução, os próximos 90 dias vão moldar seu império pessoal.</p>
+
+      <form action="https://kirvano.com/seulink" method="GET">
+        <input type="email" placeholder="Digite seu melhor e-mail" required />
+        <button class="btn" type="submit">Quero meu Império Mental</button>
+      </form>
+
+      <div class="benefits">
+        <h3>O que você vai conquistar:</h3>
+        <ul>
+          <li>Disciplina mental acima da média</li>
+          <li>R…
+[20:07, 14/06/2025] Chat Gpt: “Foi o empurrão que eu precisava pra sair da estagnação. Em menos de 1 mês, virei outro cara.” – André M.
+        </div>
+        <div class="testimonial">
+          “Aplicável, direto e bruto. Como tem que ser.” – Marcos D.
+        </div>
+      </div>
+
+      <a class="btn" href="https://kirvano.com/seulink">Quero meu Império Mental</a>
+    </div>
+
+    <footer>
+      © 2025 Geração Império • Contato: geracaoimperio9@gmail.com
+    </footer>
+  </div>
+
+</body>
+</html>
